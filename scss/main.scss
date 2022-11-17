@@ -4,6 +4,23 @@
 @import "abstracts/colors";
 @import "abstracts/type";
 
+
 /* 02 Vendor */
 
 @import "vendor/normalize";
+
+
+/* 03 base */
+
+@import "base/base";
+@import "base/_typography";
+
+// 04 layouts
+@import "layout/grid";
+@import "layout/nav";
+@import "layout/header";
+@import "layout/hero";
+@import "layout/home-sales-points";
+
+@import "components/buttons.scss";
+
