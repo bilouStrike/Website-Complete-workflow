@@ -13,6 +13,7 @@ h1 {
     font-weight: $font-light;
     line-height: 1.15;
     text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 h2 {
@@ -35,3 +36,38 @@ h2 {
     }
 }
 
+.title-box {
+    background: $accent;
+    color: $text-inverse;
+    margin: 0 auto;
+    padding: 2em;
+    transform: translateY(50%);
+    max-width: 90%;
+
+    @media (min-width: 495px) {
+        transform: translateY(50%);
+    }
+
+    & + .bg-primary {
+        padding-top: 8em;
+        @media (min-width: 495) {
+            padding-top: 8em;
+        }
+    }
+}
+
+
+.title-footer {
+   text-transform: uppercase; 
+   letter-spacing: 3px;
+   line-height: 1;
+   margin: 0;
+   &::before, &::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: $text-inverse;
+    opacity: 0.25;
+    margin: .5em 0;
+   }
+}
