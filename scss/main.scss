@@ -9,6 +9,7 @@
 
 @import "vendor/normalize";
 
+@import "layout/grid";
 
 /* 03 base */
 
@@ -16,7 +17,6 @@
 @import "base/_typography";
 
 // 04 layouts
-@import "layout/grid";
 @import "layout/nav";
 @import "layout/header";
 @import "layout/hero";

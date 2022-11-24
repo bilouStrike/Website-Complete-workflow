@@ -48,14 +48,17 @@ h2 {
         transform: translateY(50%);
     }
 
-    & + .bg-primary {
-        padding-top: 8em;
-        @media (min-width: 495) {
-            padding-top: 8em;
-        }
+    @media (min-width: 725px) {
+        max-width: 700px;
     }
 }
 
+.bg-primary {
+    padding-top: 8em;
+    @media (min-width: 495) {
+        padding-top: 8em;
+    }
+}
 
 .title-footer {
    text-transform: uppercase; 
